@@ -79,3 +79,11 @@ Mostrar usuário:
 ```
 $ whoami
 ```
+
+Zipagem de arquivos ou pastas 
+> (nome do arquivo zipado; arquivo que será zipado)
+> O arquivo que será zipado não é deletado
+
+```
+$ zip zipado.zip "ARQUIVO"
+```
