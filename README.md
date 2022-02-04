@@ -54,3 +54,28 @@ $ ls -l (permissões)
 $ ls -a (ocultos)
 $ ls -lh (incluir tamanho)
 ```
+
+Ler arquivo de texto:
+```
+$ cat "ARQUIVO"
+```
+
+Mover/renomiar arquivo:
+```
+$ mv "ORIGEM" "DESTINO"
+```
+
+Copiar arquivo:
+```
+$ cp "ORIGEM" "DESTINO"
+```
+
+Remover arquivo
+```
+$ rm "ARQUIVO"
+```
+
+Mostrar usuário:
+```
+$ whoami
+```
