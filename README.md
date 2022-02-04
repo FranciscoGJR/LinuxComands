@@ -1,4 +1,4 @@
-# LinuxComands
+# LinuxCommands
 Comandos básicos utilizados no emulador de terminal Linux.
 
 ### Atalhos do emulador de terminal
