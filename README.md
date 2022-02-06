@@ -87,3 +87,7 @@ Zipagem de arquivos ou pastas
 ```
 $ zip zipado.zip "ARQUIVO" "pasta/*"
 ```
+> para descompactar algum .zip, utiliza-se:
+```
+unzip arquivo.zip
+```
