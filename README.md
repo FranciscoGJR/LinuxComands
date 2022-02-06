@@ -85,5 +85,5 @@ Zipagem de arquivos ou pastas
 > O arquivo que será zipado não é deletado
 
 ```
-$ zip zipado.zip "ARQUIVO"
+$ zip zipado.zip "ARQUIVO" "pasta/*"
 ```
