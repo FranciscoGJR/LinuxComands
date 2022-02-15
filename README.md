@@ -81,7 +81,7 @@ $ whoami
 ```
 
 Zipagem de arquivos ou pastas 
-> (nome do arquivo zipado; arquivo que será zipado)
+> (zip; nome do arquivo zipado; arquivo que será zipado)
 > O arquivo que será zipado não é deletado
 
 ```
@@ -90,4 +90,12 @@ $ zip zipado.zip "ARQUIVO" "pasta/*"
 > para descompactar algum .zip, utiliza-se:
 ```
 unzip arquivo.zip
+```
+
+Buscar arquivos
+> (find; diretório que será vasculhado; flag; nome ou formato)
+> é retornado o diretório em que encontra-se o arquivo procurado
+ 
+```
+find ./ -name ‘*.cpp’
 ```
