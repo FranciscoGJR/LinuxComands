@@ -127,6 +127,14 @@ echo uva >> melhoresFrutas.txt
 cat "ARQUIVO-FONTE" > "ARQUIVO-DESTINO"
 ```
 
+# Manipulação de dados
+
+- Identificar quantidade de ocorrência
+
+```
+ls -l | grep '.txt'                          # retorna a quantidade de arquivos terminados .txt
+grep 'banana' vendas.txt                     # retorna todas as ocorrências ‘banana’ no texto
+```
 
 ## Mover, copiar e renomear
 
