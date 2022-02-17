@@ -113,6 +113,13 @@ Comandos básicos utilizados no emulador de terminal Linux.
  echo 'Hello, world!' > "ARQUIVO.TXT"  
  echo > "ARQUIVO"           # irá limpar o arquivo
  ```
+ 
+ - Concatenar texto
+
+```
+echo uva >> melhoresFrutas.txt
+```
+
     
 - Redirecionar conteúdo entre arquivos
 
