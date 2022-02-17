@@ -16,44 +16,66 @@ Comandos básicos utilizados no emulador de terminal Linux.
 
 - Navegar entre os diretórios:
     
-    
-    `cd ".../"`
-    
+    ```
+    cd ".../"
+    ```
     
 - Ir para o diretório anterior:
     
-    `cd ..`
-    
-- Abrir manual de algum comando:
-    
-    `man "COMANDO"`
-    
+    ```
+    cd ..
+    ```
 
 ## Mostrar informações
 
 
 - Mostrar diretório atual:
     
-    `pwd`
+    ```
+    pwd
+    ```
     
 - Listar arquivos no diretório atual:
     
-    `ls
+    ```
+    ls
     ls -l (permissões)
     ls -a (ocultos)
-    ls -lh (incluir tamanho)`
+    ls -lh (incluir tamanho)
+    ```
     
 - Ler arquivo de texto:
     
-    `cat "ARQUIVO"`
+    ```
+    cat "ARQUIVO"
+    ```
+    
+    
+    - Abrir manual de algum comando:
+    
+    ```
+    man "COMANDO"
+    ```
+    
+    
+- Contagem de linhas, palavras e bytes de um arquivo:
+    
+    ```
+    wc -l           # retorna a quantidade de linhas
+    ```
+    
     
 - Mostrar usuário:
     
-    `whoami`
+    ```
+    whoami
+    ```
     
 - Mostrar hostname:
     
-    `hostname`
+    ```
+    hostname
+    ```
     
 
 ## Criar e deletar
@@ -61,19 +83,27 @@ Comandos básicos utilizados no emulador de terminal Linux.
 
 - Criar arquivo vazio:
     
-    `touch "NOME"`
+    ```
+    touch "NOME"
+    ```
     
 - Criar pasta no diretório atual:
     
-    `mkdir "NOME"`
+    ```
+    mkdir "NOME"
+    ```
     
 - Remover arquivo:
     
-    `rm "ARQUIVO"`
+    ```
+    rm "ARQUIVO"
+    ```
     
 - Remover pasta:
     
-    `rmdir "pasta"`
+    ```
+    rmdir "pasta"
+    ```
     
 
 ## Mover, copiar e renomear
@@ -81,11 +111,15 @@ Comandos básicos utilizados no emulador de terminal Linux.
 
 - Mover/renomear arquivo:
     
-    `mv "ORIGEM" "DESTINO"`
+    ```
+    mv "ORIGEM" "DESTINO"
+    ```
     
 - Copiar arquivo:
     
-    `cp "ORIGEM" "DESTINO"`
+    ```
+    cp "ORIGEM" "DESTINO"
+    ```
     
 
 ## Zipagem
@@ -93,18 +127,24 @@ Comandos básicos utilizados no emulador de terminal Linux.
 
 - Zipar arquivo
     
-    `zip zipado.zip "ARQUIVO" "pasta/*"`
+    ```
+    zip zipado.zip "ARQUIVO" "pasta/*"
+    ```
     
 
 > (zip; nome do arquivo zipado; arquivo que será zipado) O arquivo que será zipado não é deletado
 > 
 - Descompactar algum .zip:
     
-    `unzip arquivo.zip`
+    ```
+    unzip arquivo.zip
+    ```
     
 - Buscar arquivos
 
 > (find; diretório que será vasculhado; flag; nome ou formato) é retornado o diretório em que encontra-se o arquivo procurado
 > 
 
-`find ./ -name ‘*.cpp’`
+```
+find ./ -name ‘*.cpp’
+```
