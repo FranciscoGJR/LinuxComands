@@ -105,6 +105,21 @@ Comandos básicos utilizados no emulador de terminal Linux.
     rmdir "pasta"
     ```
     
+## Manipulação de arquivos de texto
+
+- Sobre-escrever texto
+ 
+ ```
+ echo 'Hello, world!' > "ARQUIVO.TXT"  
+ echo > "ARQUIVO"           # irá limpar o arquivo
+ ```
+    
+- Redirecionar conteúdo entre arquivos
+
+```
+cat "ARQUIVO-FONTE" > "ARQUIVO-DESTINO"
+```
+
 
 ## Mover, copiar e renomear
 
