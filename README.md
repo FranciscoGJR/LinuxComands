@@ -93,16 +93,22 @@ Comandos básicos utilizados no emulador de terminal Linux.
     mkdir "NOME"
     ```
     
-- Remover arquivo:
+- Remover arquivo vazio:
     
     ```
     rm "ARQUIVO"
     ```
     
-- Remover pasta:
+- Remover diretório vazio:
     
     ```
-    rmdir "pasta"
+    rmdir "diretórios"
+    ```
+    
+- Remover diretório com conteúdo:
+
+    ```
+    rm -r "diretórios"
     ```
     
 ## Manipulação de arquivos de texto
